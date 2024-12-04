@@ -1,0 +1,52 @@
+/* Style général */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #e0f7fa, #80deea);
+    color: #002f6c;
+}
+
+/* Cadre principal */
+.profile-header {
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid #80deea;
+    border-radius: 15px;
+    padding: 20px 40px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Titre principal */
+.profile-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    color: #01579b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Effets sur le texte */
+.profile-header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #004d63;
+}
+
+/* Animation fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
